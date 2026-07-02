@@ -10,7 +10,7 @@ import ThemeKit
 extension DailyScrum {
     static let sampleData : [DailyScrum] = [
         DailyScrum(
-            title: "Android Developers",
+            title: "Mobile Developers",
             attendees: ["Rajib", "Nilashish", "Shahin", "Sattabrata", "Ziadul"],
             lengthInMinutes: 10,
             theme: .indigo
