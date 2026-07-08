@@ -27,5 +27,11 @@ extension DailyScrum {
             lengthInMinutes: 7,
             theme: .purple
         ),
+        DailyScrum(
+            title: "QA",
+            attendees: ["Sunny", "Abdullah", "Minhaz", "Swarna", "Tanni", "Prianka", "Rafi", "Junayed", "Alamin"],
+            lengthInMinutes: 6,
+            theme: .bubblegum
+        ),
     ]
 }
