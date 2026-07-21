@@ -22,7 +22,7 @@ struct ThemePicker: View {
     }
 }
 
-#Preview {
-    @Previewable @State var theme = Theme.periwinkle
-    ThemePicker(selection: $theme)
-}
+//#Preview {
+//    @Previewable @State var theme = Theme.periwinkle
+//    ThemePicker(selection: $theme)
+//}
