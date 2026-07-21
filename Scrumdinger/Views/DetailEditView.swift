@@ -25,7 +25,7 @@ struct DetailEditView: View {
                 }
                 ThemePicker(selection: $scrum.theme)
             }
-            Section(header: Text("Attendees")) {
+            Section(header: Text("ATTENDEES")) {
                 ForEach(scrum.attendees) { attendee in
                     Text(attendee.name)
                 }
