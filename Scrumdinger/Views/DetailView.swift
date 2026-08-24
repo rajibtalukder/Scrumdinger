@@ -12,10 +12,11 @@ struct DetailView: View {
     @Binding var scrum: DailyScrum
     @State private var editingScrum = DailyScrum.emptyScrum
     @State private var isPresentingEditView = false
+    
     var body: some View {
-        List{
-            Section(header : Text("MEETING INFO")) {
-                NavigationLink(destination: MeetingView()) {
+        List {
+            Section(header: Text("Meeting Info")) {
+                NavigationLink(destination: MeetingView(scrum: $scrum)) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
@@ -26,7 +27,6 @@ struct DetailView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
                 .accessibilityElement(children: .combine)
-                
                 HStack {
                     Label("Theme", systemImage: "paintpalette")
                     Spacer()
@@ -38,13 +38,11 @@ struct DetailView: View {
                 }
                 .accessibilityElement(children: .combine)
             }
-            
-            Section(header : Text("ATTENDEES")) {
-                ForEach(scrum.attendees, content: { i in
-                    Label(i.name, systemImage: "person")
-                })
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attendee in
+                    Label(attendee.name, systemImage: "person")
+                }
             }
-            
         }
         .navigationTitle(scrum.title)
         .toolbar {
@@ -74,6 +72,7 @@ struct DetailView: View {
         }
     }
 }
+
 
 #Preview {
     @Previewable @State var scrum = DailyScrum.sampleData[1]
