@@ -32,16 +32,16 @@ It provides a clean interface for scheduling meetings, tracking attendees, and m
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](Scrumdinger/ss1.png)
+![Dashboard](Scrumdinger/screenshots/ss1.png)
 
 ### Meeting Info
-![Meeting Info](Scrumdinger/ss2.png)
+![Meeting Info](Scrumdinger/screenshots/ss2.png)
 
 ### Attendee Management
-![Attendee Management](Scrumdinger/ss3.png)
+![Attendee Management](Scrumdinger/screenshots/ss3.png)
 
 ### Extended Attendees
-![Extended Attendees](Scrumdinger/ss4.png)
+![Extended Attendees](Scrumdinger/screenshots/ss4.png)
 
 
 ---
