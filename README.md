@@ -31,10 +31,18 @@ It provides a clean interface for scheduling meetings, tracking attendees, and m
 
 ## 📸 Screenshots
 
-| Dashboard | Meeting Info | Attendee Management |
-|-----------|--------------|---------------------|
-| ![Dashboard](attachments/tziZzKnRUBKni83DX97AL.png) | ![Meeting Info](attachments/265kxQvZPbPc5aHGd9Xap.png) | ![Attendees](attachments/dQMte1nvg1PFhH49PL8gU.png) |
-| ![Extended Attendees](attachments/YtAaQNP7K5oe1BArGsXbp.png) | | |
+### Dashboard
+![Dashboard](Scrumdinger/ss1.png)
+
+### Meeting Info
+![Meeting Info](Scrumdinger/ss2.png)
+
+### Attendee Management
+![Attendee Management](Scrumdinger/ss3.png)
+
+### Extended Attendees
+![Extended Attendees](Scrumdinger/ss4.png)
+
 
 ---
 
